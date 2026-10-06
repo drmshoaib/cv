@@ -1,0 +1,232 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[a4paper,margin=1.55cm,top=1.35cm,bottom=1.45cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{enumitem,titlesec,xcolor,tabularx,array,microtype,fancyhdr,lastpage,parskip,needspace}
+\usepackage[hidelinks]{hyperref}\n\usepackage{bookmark}
+\definecolor{accent}{HTML}{203A5F}
+\definecolor{muted}{HTML}{5B6573}
+\hypersetup{colorlinks=true,urlcolor=cyan,linkcolor=accent,pdftitle={Dr Muhammad Shoaib - Comprehensive Professional CV},pdfauthor={Muhammad Shoaib}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3.5pt}
+\setlength{\emergencystretch}{2em}
+\setlist[itemize]{leftmargin=1.35em,itemsep=1.3pt,topsep=2pt,parsep=0pt}
+\setlist[enumerate]{leftmargin=1.8em,itemsep=2pt,topsep=2pt,parsep=0pt}
+\renewcommand{\labelitemi}{\textcolor{green}{\small\textbullet}}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{}[\vspace{-2pt}\color{green}\rule{\linewidth}{0.65pt}]
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+\titleformat{\subsection}{\normalsize\bfseries\color{accent}}{}{0pt}{}
+\titlespacing*{\subsection}{0pt}{5pt}{2pt}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize\color{muted} Dr Muhammad Shoaib -- Comprehensive Professional CV}
+\fancyfoot[R]{\footnotesize\color{muted} Page \thepage\ of \pageref{LastPage}}
+\newcommand{\cvrole}[4]{\textbf{#1}\hfill\textbf{#2}\\[-1pt]\textit{#3}\hfill\textit{#4}\par}
+\newcommand{\pub}[1]{\item #1}
+\newcommand{\doi}[1]{\href{https://doi.org/#1}{doi:#1}}\n\newcommand{\project}[3]{\textbf{\href{#1}{#2}} --- #3\par}
+
+\begin{document}
+
+\noindent\colorbox{navy}{%
+  \parbox{\dimexpr\linewidth-2\fboxsep\relax}{%
+    \vspace{9pt}
+    {\color{green}\bfseries\small APPLIED MATHEMATICS \;|\; AI \;|\; QUANTITATIVE MODELLING \;|\; ENERGY}\par
+    \vspace{5pt}
+    {\fontsize{24}{26}\selectfont\bfseries\color{white} Dr Muhammad Shoaib}\par
+    \vspace{3pt}
+    {\large\color{white} Mathematical modelling, AI and optimisation for real-world decisions}\par
+    \vspace{6pt}
+    {\small\color{white}
+      Motherwell, Scotland, United Kingdom \quad | \quad
+      \href{mailto:safridi@gmail.com}{safridi@gmail.com} \quad | \quad
+      \href{https://github.com/drmshoaib}{GitHub} \quad | \quad
+      \href{https://www.linkedin.com/in/drmshoaib}{LinkedIn}\\
+      \href{https://orcid.org/0000-0003-1644-1559}{ORCID 0000-0003-1644-1559} \quad | \quad
+      \href{https://scholar.google.com/citations?user=VCSUWUEAAAAJ}{Google Scholar} \quad | \quad
+      \href{https://www.ssstechs.com/}{SSS Techs}
+    }
+    \vspace{9pt}
+  }
+}
+
+\section{Professional Profile}
+Applied mathematician and data scientist with more than twenty years of university teaching, research and academic leadership experience across the UK, Middle East and Southeast Asia, together with current industrial work in AI, energy analytics and decision systems. Research spans celestial mechanics and dynamical systems, spacecraft attitude dynamics, numerical analysis, stochastic modelling, optimisation and scientific computing. Current work combines mathematical modelling, statistical inference, machine learning and reproducible software for building-energy, renewable-energy, quantitative-research and operational decision problems.
+
+\section{Current Appointments}
+\cvrole{Senior Data Scientist / Research Lead (Applied Mathematics \& AI)}{2025--Present}{\href{https://www.utopi.co.uk/}{Utopi Ltd}}{Glasgow, UK}
+\begin{itemize}
+\item Leads applied mathematics, statistical modelling and AI research for building-energy and environmental analytics using high-frequency IoT telemetry.
+\item Develops mathematical models from research formulation through validation, software implementation and deployment as decision-support products.
+\end{itemize}
+
+\cvrole{Adjunct Professor, Centre of Data Science}{2026--Present}{\href{https://gcuf.edu.pk/faculties/physical-science/data-science/}{Government College University Faisalabad (GCUF)}}{Faisalabad, Pakistan}
+\begin{itemize}
+\item Teaches the final-year BS Data Science/Analytics course \textit{Applied Industrial Data Science -- From Models to Market}.
+\item Designed a 16-week lecture-and-laboratory programme covering modelling, reproducible computation, testing, productionisation, MLOps and decision systems.
+\end{itemize}
+
+\cvrole{Director, Research \& Development}{2020--Present}{\href{https://www.ssstechs.com/}{Smart and Scientific Solutions Ltd (SSS Techs)}}{Hamilton, Scotland, UK}
+\begin{itemize}
+\item Leads independent applied-mathematics, quantitative-modelling and analytical-software R\&D, including renewable-energy decision support, scientific computing and model-assurance work.
+\end{itemize}
+
+\section{Industrial Research and Product Development -- Utopi Ltd}
+The following descriptions are intentionally high level for a public CV. Client data, commercial thresholds, proprietary calibration choices and implementation details are omitted.
+
+\subsection{Energy Benchmarking and Technical Efficiency}
+Developed weather-normalised energy benchmarking methods that combine change-point modelling, stochastic frontier analysis and efficiency estimation. Built quality-control logic and reporting outputs to support portfolio-level comparison, identification of avoidable consumption and operational decision-making.
+
+\subsection{Mould-Risk Analytics}
+Implemented an hourly mould-risk model based on published Ojanen/VTT methodology, using indoor environmental telemetry to estimate conditions associated with surface mould development and to support early operational intervention.
+
+\subsection{Legionella Proxy Risk}
+Developed a risk-prioritisation model that combines occupancy/stagnation evidence with thermal behaviour to identify locations that warrant attention. The model supports targeted operational checks without exposing site-specific thresholds or internal control rules.
+
+\subsection{Heat-Loss Estimation}
+Developed inverse cooling-event models that estimate relative heat-loss behaviour from passive temperature decay. The method extracts suitable cooling periods from telemetry, fits space-level thermal-decay models and applies model-quality checks before interpretation.
+
+\subsection{Anomalous Heating and Rogue-Heater Detection}
+Developed statistical models for identifying indoor-temperature behaviour inconsistent with expected outdoor conditions, prior indoor state and occupancy evidence. The work supports investigation of portable or unmanaged heating and other atypical thermal behaviour.
+
+\subsection{Unoccupied-Heating Analytics}
+Developed portfolio analytics to identify heating that persists when occupancy evidence is low, enabling operational teams to distinguish likely occupancy-driven demand from potentially avoidable heating.
+
+\subsection{Utopi Index / Building Energy Performance Score}
+Developed and productionised a multi-signal building-performance scoring framework that converts telemetry-derived performance indicators into a concise operational index. Implemented the analytical logic as a deployable cloud service with validation and model-QA workflows.
+
+\section{Selected Public Research and Software Projects}
+\project{https://wattvector.streamlit.app/}{WattVector}{Renewable-energy decision support combining probabilistic forecasting, calibrated uncertainty, scenario analysis and risk-aware dispatch comparison.}
+\project{https://github.com/drmshoaib/quant-research-lab}{Quant Research Lab}{Cross-sectional ETF research with next-open execution, purged expanding-window validation, HAC/Newey-West inference, placebo testing, multiple-testing control, turnover accounting and a sealed final hold-out.}
+\project{https://github.com/drmshoaib/latent-performance-benchmarking}{Latent Performance Benchmarking}{Factor-adjusted benchmarking with full cross-portfolio HAC inference, empirical-Bayes shrinkage, bootstrap rank uncertainty and forward validation.}
+\project{https://github.com/drmshoaib/heston-model-calibration}{Heston Model Calibration}{Stochastic-volatility pricing and numerical calibration using Fourier methods, implied-volatility inversion and constrained optimisation.}
+\project{https://github.com/drmshoaib/OceanWatch}{OceanWatchAI}{C++20 AIS trajectory analysis with explainable risk scoring, geospatial outputs, FastAPI services and an analyst-facing interface.}
+\project{https://github.com/drmshoaib/ra15-fourbody-modern_version}{RA15 Four-Body}{Modernised high-order numerical integration for celestial-mechanics problems.}
+\project{https://drmshoaib.github.io/whats-under-the-hood/}{What's Under the Hood?}{Public lecture series on the mathematics, optimisation and numerical methods behind machine-learning algorithms.}
+
+\section{Research Interests}
+\begin{itemize}
+\item Celestial mechanics, restricted multi-body problems and central configurations
+\item Dynamical systems, bifurcation analysis, stability and periodic-orbit computation
+\item Spacecraft attitude dynamics and control; Lorentz-force models
+\item Numerical analysis, optimisation and scientific computing
+\item Stochastic modelling, statistical inference and stochastic frontier analysis
+\item Renewable-energy systems, probabilistic forecasting, uncertainty quantification and AI-enabled grid-risk decision support
+\item Physics-informed and data-driven mathematical modelling for energy and engineering systems
+\end{itemize}
+
+\section{Education}
+\cvrole{MSc Big Data Technologies, Distinction}{2024--2025}{Glasgow Caledonian University}{UK}
+Data Lab Academy scholarship. Core study included Big Data Systems, Machine Learning and AI, Cloud Computing, Advanced Data Processing, Data Visualisation and Data Ethics.
+\cvrole{PhD Applied Mathematics}{2001--2004}{Glasgow Caledonian University}{UK}
+Thesis research in mathematical modelling and stability analysis of multi-body dynamical systems. Recipient of the Outstanding Computing and Mathematical Sciences PhD Student Award.
+\cvrole{MPhil Applied Mathematics}{1997--1999}{Quaid-i-Azam University}{Islamabad, Pakistan}
+\cvrole{MSc Applied Mathematics}{1995--1997}{Quaid-i-Azam University}{Islamabad, Pakistan}
+\cvrole{BSc Mathematics and Computer Science}{1992--1994}{University of Peshawar}{Pakistan}
+
+\section{Previous Academic Appointments}
+\cvrole{Assistant Professor, Mathematics}{2015--2020}{Higher Colleges of Technology / CERT}{Al-Ain, UAE}
+\begin{itemize}
+\item Taught applied mathematics across engineering and technology programmes and contributed to research and curriculum development.
+\item Team Leader for General Studies, covering Mathematics, Physics, IT and Humanities.
+\item Member of the Accreditation Committee and Applied Research Council; chaired the Textbook Review Committee and an ad hoc workload committee.
+\end{itemize}
+
+\cvrole{Assistant Professor, Mathematics}{2008--2015}{University of Ha'il}{Ha'il, Saudi Arabia}
+\begin{itemize}
+\item Taught applied mathematics to mathematics, science and engineering cohorts and maintained an active research programme in celestial mechanics, numerical analysis and computational mathematics.
+\item Module Leader for Numerical Analysis, Engineering Mathematics, Calculus I--III and Differential Equations.
+\item Member of the Science and Technology Unit and College of Sciences curriculum development committee.
+\end{itemize}
+
+\cvrole{Director, Preparatory Year Programme -- Mathematics}{2008--2010}{University of Ha'il}{Ha'il, Saudi Arabia}
+\begin{itemize}
+\item Led mathematics curriculum development, staff development and performance monitoring, timetabling and workload allocation.
+\item Coordinated curriculum relevance with Computer Science, Engineering and Management Information Systems departments.
+\end{itemize}
+
+\cvrole{Senior Lecturer, Mathematics}{2007--2008}{Universiti Teknologi PETRONAS}{Tronoh, Malaysia}
+\begin{itemize}\item Taught engineering mathematics and coordinated Engineering Mathematics provision.\end{itemize}
+\cvrole{Lecturer, part time}{2006--2007}{Glasgow Caledonian University}{Glasgow, UK}
+\cvrole{Postdoctoral Research Fellow}{2004--2005}{National University of Sciences and Technology (NUST)}{Rawalpindi, Pakistan}
+\cvrole{Graduate Teaching Assistant}{2001--2004}{Glasgow Caledonian University}{Glasgow, UK}
+\cvrole{Lecturer}{1998--2001}{Institute of Business Administration and Technology}{Islamabad, Pakistan}
+
+\Needspace{7\baselineskip}
+\section{Patents and Intellectual Property}
+\begin{itemize}
+\item \textbf{UK Patent Application GB2307251.5}, filed 16 May 2023. \textit{Methodology of diagnosing depression using (EEG) electroencephalographic measurements}. Patent application arising from research on EEG-based methods for diagnosis of Major Depressive Disorder.
+\end{itemize}
+
+\input{publications}
+
+\Needspace{8\baselineskip}
+\section{Postgraduate Supervision}
+\begin{itemize}
+\item \textbf{Completed PhD supervision:} Dr Ather Qayyum, \textit{Integral Inequalities with Applications to Numerical Quadrature Rules}.
+\item Supervised undergraduate research projects and postgraduate dissertations in applied mathematics, numerical methods and computational modelling.
+\end{itemize}
+
+\section{Teaching and Curriculum Leadership}
+\begin{itemize}
+\item Calculus I -- Module Leader; approximately 500 students and 18 lecturers (University of Ha'il, 2009).
+\item Calculus II -- Module Leader; approximately 550 students and 11 lecturers (University of Ha'il, 2015).
+\item Calculus III -- Module Leader; approximately 227 students and 7 lecturers.
+\item Numerical Analysis -- Module Leader; developed the course for mathematics students.
+\item Engineering Mathematics -- Module Leader; also taught Differential Equations, Linear Algebra and Methods of Applied Mathematics.
+\item Extensive teaching across engineering, mathematics, technology and multidisciplinary cohorts in the UK, Saudi Arabia, UAE, Malaysia and Pakistan.
+\end{itemize}
+
+\section{Selected Research Funding and Awards}
+\begin{itemize}
+\item Outstanding Computing and Mathematical Sciences PhD Student Award, Glasgow Caledonian University.
+\item University of Ha'il research funding: SAR 96,000 (2014) and SAR 108,000 (2012).
+\item British Council Collaborative Research Grant -- Co-Investigator, GBP 8,000 (2002--2003).
+\item Glasgow Caledonian University PhD Studentship, GBP 46,800 (2001--2004).
+\item Universiti Teknologi PETRONAS research support, MYR 12,000 (2007).
+\item NATO Advanced Study Institute \textit{Chaotic Worlds: From Order to Disorder in Gravitational N-Body Dynamical Systems}, Organising Committee; programme grant EUR 50,000 (2003).
+\item Collaborative research visits supported by Glasgow Caledonian University, including Eotvos University, Budapest.
+\end{itemize}
+
+\section{Academic Leadership and Service}
+\begin{itemize}
+\item Member, Applied Research Council, Higher Colleges of Technology; research policy and grant management across HCT colleges.
+\item Member, Accreditation Committee, Higher Colleges of Technology; contributed to initial CAA accreditation and self-study preparation.
+\item Team Leader, General Studies, Higher Colleges of Technology (Mathematics, Physics, IT and Humanities).
+\item Member, Science and Technology Unit, University of Ha'il; one of ten members selected from a faculty of approximately 800.
+\item Member, College of Sciences Curriculum Development Committee, University of Ha'il.
+\item Editorial board member, \textit{The NUCLEUS}; referee for international applied mathematics journals.
+\item Organising Committee, NATO Advanced Study Institute \textit{Chaotic Worlds}, Cortina d'Ampezzo, Italy (2003).
+\item Organising Committee, Scottish Universities Summer School in Physics, \textit{Extra Solar Planets: the detection, formation, evolution and dynamics of planetary systems}, Skye, Scotland (2007).
+\end{itemize}
+
+\section{International Research Collaboration}
+Long-standing research collaboration with colleagues at Glasgow Caledonian University, Massey University, the Romanian Academy Astronomical Institute, Universiti Teknologi PETRONAS, Khalifa University and other institutions in celestial mechanics, numerical analysis and computational modelling.
+
+\Needspace{13\baselineskip}
+\section{Technical Competencies}
+\begin{tabularx}{\linewidth}{>{\bfseries}p{0.25\linewidth} X}
+Scientific computing & Python (NumPy, SciPy, Pandas, statsmodels, scikit-learn), MATLAB, Mathematica, Maple, R \\
+Programming & Python, C, C++, FORTRAN, SQL \\
+Methods & Numerical optimisation, ODE integration, bifurcation and stability analysis, stochastic modelling, probabilistic forecasting, uncertainty quantification, conformal calibration, CVaR optimisation, likelihood-based inference, regression and machine learning \\
+Reproducibility & Git/GitHub, Jupyter, automated testing, documented computational workflows \\
+Teaching platforms & Moodle, Blackboard, GitHub Classroom \\
+Languages & English, Urdu, Pashto, Arabic, Punjabi \\
+\end{tabularx}
+
+\section{Public Professional Links}
+\begin{itemize}
+\item GitHub: \href{https://github.com/drmshoaib}{github.com/drmshoaib}
+\item LinkedIn: \href{https://www.linkedin.com/in/drmshoaib}{linkedin.com/in/drmshoaib}
+\item ORCID: \href{https://orcid.org/0000-0003-1644-1559}{0000-0003-1644-1559}
+\item Google Scholar: \href{https://scholar.google.com/citations?user=VCSUWUEAAAAJ}{research profile}
+\item SSS Techs: \href{https://www.ssstechs.com/}{ssstechs.com}
+\item What's Under the Hood?: \href{https://drmshoaib.github.io/whats-under-the-hood/}{public lecture series}
+\item WattVector: \href{https://wattvector.streamlit.app/}{interactive application}
+\end{itemize}
+
+\section{Referees}
+Available on request.
+\vfill
+\begin{center}\footnotesize\color{muted} Public comprehensive CV -- updated October 2026\end{center}
+\end{document}
