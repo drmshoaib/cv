@@ -1,0 +1,42 @@
+name: Build CV PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "cv.tex"
+      - "publications.tex"
+      - ".github/workflows/build-cv.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y latexmk texlive-xetex texlive-latex-extra texlive-fonts-recommended
+
+      - name: Build comprehensive CV
+        run: |
+          latexmk -xelatex -interaction=nonstopmode -halt-on-error cv.tex
+          mv -f cv.pdf Dr_Muhammad_Shoaib_Comprehensive_CV.pdf
+
+      - name: Commit generated PDF
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Dr_Muhammad_Shoaib_Comprehensive_CV.pdf
+          if git diff --cached --quiet; then
+            echo "PDF unchanged"
+          else
+            git commit -m "Build comprehensive CV PDF"
+            git push
+          fi
