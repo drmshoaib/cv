@@ -4,8 +4,8 @@ on:
   push:
     branches: [main]
     paths:
-      - "cv.tex"
-      - "publications.tex"
+      - ".github/cv/cv.tex"
+      - ".github/cv/publications.tex"
       - ".github/workflows/build-cv.yml"
   workflow_dispatch:
 
@@ -26,8 +26,9 @@ jobs:
 
       - name: Build comprehensive CV
         run: |
+          cd .github/cv
           latexmk -xelatex -interaction=nonstopmode -halt-on-error cv.tex
-          mv -f cv.pdf Dr_Muhammad_Shoaib_Comprehensive_CV.pdf
+          cp -f cv.pdf ../../Dr_Muhammad_Shoaib_Comprehensive_CV.pdf
 
       - name: Commit generated PDF
         run: |
