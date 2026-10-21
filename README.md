@@ -19,7 +19,7 @@ This page is my **complete public professional CV**. It is intended to be read d
 
 ## Contents
 
-[Professional profile](#professional-profile) · [Current appointments](#current-appointments) · [Industrial R&D at Utopi](#industrial-research-and-product-development--utopi-ltd) · [Public projects](#selected-public-research-and-software-projects) · [Research interests](#research-interests) · [Education](#education) · [Previous appointments](#previous-academic-appointments) · [Patent](#patent-and-intellectual-property) · [Manuscripts](#current-manuscripts) · [Publications](#peer-reviewed-journal-publications) · [Conferences](#conference-proceedings-and-presentations) · [Supervision](#postgraduate-supervision) · [Teaching](#teaching-and-curriculum-leadership) · [Funding & awards](#selected-research-funding-and-awards) · [Leadership & service](#academic-leadership-and-service) · [Technical competencies](#technical-competencies) · [Links](#public-professional-links)
+[Professional profile](#professional-profile) · [Current appointments](#current-appointments) · [Industrial R&D at Utopi](#industrial-research-and-product-development--utopi-ltd) · [Public projects](#selected-public-research-and-software-projects) · [Research interests](#research-interests) · [Education](#education) · [MSc projects](#selected-msc-applied-data-science-projects-20242025) · [Previous appointments](#previous-academic-appointments) · [Patent](#patent-and-intellectual-property) · [Manuscripts](#current-manuscripts) · [Publications](#peer-reviewed-journal-publications) · [Conferences](#conference-proceedings-and-presentations) · [Supervision](#postgraduate-supervision) · [Teaching](#teaching-and-curriculum-leadership) · [Funding & awards](#selected-research-funding-and-awards) · [Leadership & service](#academic-leadership-and-service) · [Technical competencies](#technical-competencies) · [Links](#public-professional-links)
 
 ---
 
@@ -170,6 +170,32 @@ Thesis research in mathematical modelling and stability analysis of multi-body d
 
 ### BSc Mathematics and Computer Science — [University of Peshawar](https://www.uop.edu.pk/)
 **1992–1994 · Pakistan**
+
+---
+
+## Selected MSc Applied Data Science Projects (2024–2025)
+
+These projects were completed during the MSc Big Data Technologies at Glasgow Caledonian University.
+
+### Carbon-emissions forecasting and net-zero analysis — R
+
+Analysed historical greenhouse-gas emissions from major fossil-fuel producers alongside population data. Used R for data cleaning, temporal and sectoral analysis, and **ARIMA time-series forecasting** (`forecast::auto.arima`) of business-as-usual emissions to 2050. Compared the projected trajectory and its 80% and 95% prediction intervals with an illustrative net-zero pathway; also produced forecasts by fuel type. Wider MSc time-series work included **SARIMA** modelling.
+
+### Deep learning for image classification — Python, TensorFlow/Keras
+
+Built and evaluated convolutional neural networks (CNNs) for classification of **11 medicinal-herb image categories**. Implemented image preprocessing, data augmentation, regularisation, training callbacks and model evaluation using accuracy, precision, recall, F1-score and confusion matrices. The baseline achieved **83.56% test accuracy**; a more heavily regularised variant achieved **78.53%**, providing a direct comparison of model generalisation.
+
+### BigQuery ML and public-health data — SQL, Google Cloud
+
+Joined public datasets on COVID-19 outcomes, vaccination access and population characteristics. Built and evaluated **BigQuery ML regression models** to investigate county-level mortality measures, and assessed SQL-based model diagnostics and explainability.
+
+### MSc dissertation — multi-modal environmental sensing
+
+*Legionella Risk Indication Through Multi-Modal Environmental Sensing* (August 2025). Developed a data-driven proxy-risk framework using building environmental and occupancy signals, exploratory time-series analysis, and thermal modelling. The industrial work described above subsequently developed this research direction.
+
+### Data preparation and cloud-platform evaluation
+
+Used Python and pandas to combine and clean Cape Town Airbnb data, handle missing values and duplicates, standardise features and perform exploratory analysis. Separately compared managed cloud services for container orchestration, serverless computing and data processing, including GKE/EKS, Cloud Run/Fargate, Dataproc/EMR and Dataflow/Glue.
 
 ---
 
@@ -349,7 +375,8 @@ Long-standing research collaboration with colleagues at Glasgow Caledonian Unive
 | --- | --- |
 | **Scientific computing** | Python — NumPy, SciPy, pandas, statsmodels, scikit-learn; MATLAB; Mathematica; Maple; R |
 | **Programming** | Python, C, C++, FORTRAN, SQL |
-| **Mathematical & statistical methods** | Numerical optimisation, ODE integration, bifurcation and stability analysis, stochastic modelling, probabilistic forecasting, uncertainty quantification, conformal calibration, CVaR optimisation, HAC/Newey-West inference, bootstrap methods, regression and machine learning |
+| **Mathematical & statistical methods** | Numerical optimisation, ODE integration, bifurcation and stability analysis, stochastic modelling, ARIMA/SARIMA time-series forecasting, probabilistic forecasting, uncertainty quantification, conformal calibration, CVaR optimisation, HAC/Newey-West inference, bootstrap methods, regression and machine learning |
+| **Deep learning & data platforms** | TensorFlow/Keras, convolutional neural networks, image augmentation and classification; Google BigQuery ML, SQL-based modelling, R forecasting tools |
 | **Engineering** | FastAPI, Streamlit, React/TypeScript, Docker, GitHub Actions, automated testing, configuration-driven workflows |
 | **Reproducibility** | Git/GitHub, Jupyter, unit testing, documented computational workflows, reproducible experiment protocols |
 | **Teaching platforms** | Moodle, Blackboard, GitHub Classroom |
