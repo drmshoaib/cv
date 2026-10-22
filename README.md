@@ -25,7 +25,7 @@ This page is my **complete public professional CV**. It is intended to be read d
 
 ## Professional Profile
 
-Applied mathematician and senior data scientist leading industrial research in building-energy and environmental analytics. Develop mathematical and statistical models through validation, software implementation and production deployment, including operational building-performance scoring. Bring more than twenty years of university research, teaching and academic leadership experience across the UK, Middle East and Southeast Asia.
+Applied mathematician and senior data scientist leading industrial research in building-energy and environmental analytics. Develops mathematical and statistical models through validation, software implementation and production deployment, including operational building-performance scoring. Brings more than twenty years of university research, teaching and academic leadership experience across the UK, Middle East and Southeast Asia.
 
 My research spans celestial mechanics and dynamical systems, spacecraft attitude dynamics, numerical analysis, stochastic modelling, optimisation and scientific computing. Current work combines mathematical modelling, statistical inference, machine learning and reproducible software for building-energy, renewable-energy, quantitative-research and operational decision problems.
 
