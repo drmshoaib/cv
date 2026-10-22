@@ -37,7 +37,6 @@ My research spans celestial mechanics and dynamical systems, spacecraft attitude
 - Lead applied mathematics, statistical modelling and AI research for building-energy and environmental analytics using high-frequency IoT telemetry.
 - Develop mathematical models from research formulation through validation, software implementation and deployment as decision-support products.
 - Work across research, engineering and product teams to translate mathematical methods into operational analytical services.
-- Research contributions provided the technical basis for successful R&D tax relief and a grant awarded by a government organisation.
 
 ### Adjunct Professor, Centre of Data Science — [Government College University Faisalabad](https://gcuf.edu.pk/faculties/physical-science/data-science/)
 **Faisalabad, Pakistan · 2026–Present**
@@ -341,7 +340,6 @@ Taught engineering mathematics and coordinated Engineering Mathematics provision
 
 ## Selected Research Funding and Awards
 
-- **Industrial R&D financial impact — Utopi Ltd:** Research work supported successful R&D tax relief and a grant award from a government organisation.
 - **Outstanding Computing and Mathematical Sciences PhD Student Award**, Glasgow Caledonian University.
 - **University of Ha'il research funding:** SAR 96,000 (2014) and SAR 108,000 (2012).
 - **British Council Collaborative Research Grant:** Co-Investigator, GBP 8,000 (2002–2003).
