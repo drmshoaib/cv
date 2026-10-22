@@ -25,7 +25,7 @@ This page is my **complete public professional CV**. It is intended to be read d
 
 ## Professional Profile
 
-Applied mathematician and data scientist with more than twenty years of university teaching, research and academic leadership experience across the UK, Middle East and Southeast Asia, together with current industrial work in AI, energy analytics and decision systems.
+Applied mathematician and senior data scientist leading industrial research in building-energy and environmental analytics. Develop mathematical and statistical models through validation, software implementation and production deployment, including operational building-performance scoring. Bring more than twenty years of university research, teaching and academic leadership experience across the UK, Middle East and Southeast Asia.
 
 My research spans celestial mechanics and dynamical systems, spacecraft attitude dynamics, numerical analysis, stochastic modelling, optimisation and scientific computing. Current work combines mathematical modelling, statistical inference, machine learning and reproducible software for building-energy, renewable-energy, quantitative-research and operational decision problems.
 
@@ -37,6 +37,7 @@ My research spans celestial mechanics and dynamical systems, spacecraft attitude
 - Lead applied mathematics, statistical modelling and AI research for building-energy and environmental analytics using high-frequency IoT telemetry.
 - Develop mathematical models from research formulation through validation, software implementation and deployment as decision-support products.
 - Work across research, engineering and product teams to translate mathematical methods into operational analytical services.
+- Research contributions provided the technical basis for successful R&D tax relief and a grant awarded by a government organisation.
 
 ### Adjunct Professor, Centre of Data Science — [Government College University Faisalabad](https://gcuf.edu.pk/faculties/physical-science/data-science/)
 **Faisalabad, Pakistan · 2026–Present**
@@ -340,6 +341,7 @@ Taught engineering mathematics and coordinated Engineering Mathematics provision
 
 ## Selected Research Funding and Awards
 
+- **Industrial R&D financial impact — Utopi Ltd:** Research work supported successful R&D tax relief and a grant award from a government organisation.
 - **Outstanding Computing and Mathematical Sciences PhD Student Award**, Glasgow Caledonian University.
 - **University of Ha'il research funding:** SAR 96,000 (2014) and SAR 108,000 (2012).
 - **British Council Collaborative Research Grant:** Co-Investigator, GBP 8,000 (2002–2003).
